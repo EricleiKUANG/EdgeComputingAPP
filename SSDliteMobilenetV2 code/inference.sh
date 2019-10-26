@@ -1,0 +1,1 @@
+python ../object_detection/export_inference_graph.py --input_type image_tensor --pipeline_config_path ./ssdlite_mobilenet_v2_coco.config --trained_checkpoint_prefix ./models/model/train/model.ckpt-239360 --output_directory ./out239360
